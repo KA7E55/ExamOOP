@@ -4,11 +4,11 @@ public class Adyl extends People{
     }
     @Override
     public void work() {
-        System.out.println("Адыл айдоочу болуп иштейт");
+        System.out.println("Айдоочу болуп иштейт");
     }
     @Override
     public void toRelax() {
-        System.out.println("КАзахстанга барып эс алат");
+        System.out.println("Казахстанга барып эс алат");
     }
     @Override
     public void communication() {

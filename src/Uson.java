@@ -4,7 +4,7 @@ public class Uson extends People{
     }
     @Override
     public void work() {
-        System.out.println("Үсөн курулушта иштейт");
+        System.out.println("Курулушта иштейт");
     }
     @Override
     public void toRelax() {

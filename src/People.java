@@ -1,12 +1,10 @@
 public abstract class People {
-
     private int id;
     private String firstName;
     private String lastName;
     private  int age;
     private String email;
     private String city;
-
     public People(int id, String firstName, String lastName, int age, String email, String city) {
         this.id = id;
         this.firstName = firstName;
@@ -19,7 +17,6 @@ public abstract class People {
     public abstract void toRelax();
     public abstract void communication();
     public abstract void timeTable();
-
     public int getId() {
         return id;
     }
@@ -46,13 +43,22 @@ public abstract class People {
     }
     public void age(){
         if (getAge()<0||getAge()>110){
-            System.out.println("Терс сан берүүгө жан жок жаш берүүгө болбойт!");
+            System.out.println("Терс сан берүүгө жана жок жаш берүүгө болбойт!");
         }else this.age = age;
-
     }
     public void email(){
         if (!email.contains("@")){
             System.out.println("Email не существует!");
         }else this.email=email;
+    }
+    @Override
+    public String toString() {
+        return "- - - - - "+firstName+" - - - - -"+
+                "\nID: " + id +
+                "\nFirst name:" + firstName +
+                "\nLast name: " + lastName +
+                "\nAge: " + age +
+                "\nEmail: " + email+
+                "\nCity: " + city;
     }
 }

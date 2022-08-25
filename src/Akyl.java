@@ -4,7 +4,7 @@ public class Akyl extends People{
     }
     @Override
     public void work() {
-        System.out.println("Акыл мугалим болуп иштейт");
+        System.out.println("Мугалим болуп иштейт");
     }
     @Override
     public void toRelax() {

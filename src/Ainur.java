@@ -4,7 +4,7 @@ public class Ainur extends People{
     }
     @Override
     public void work() {
-        System.out.println("Айнур чач-тарачта иштейт");
+        System.out.println("Чач-тарачта иштейт");
     }
     @Override
     public void toRelax() {
@@ -16,19 +16,16 @@ public class Ainur extends People{
     }
     @Override
     public void timeTable() {
-        System.out.println("Жумасына 6 күн 9 күн иштейт");
+        System.out.println("Жумасына 6 күн 9 сааттан иштейт");
     }
-
     @Override
     public void name() {
         super.name();
     }
-
     @Override
     public void age() {
         super.age();
     }
-
     @Override
     public void email() {
         super.email();
